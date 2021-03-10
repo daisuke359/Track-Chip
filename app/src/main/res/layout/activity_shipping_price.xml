@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/logoname" />
+
+        <TextView
+            android:id="@+id/txtETitle"
+            android:layout_width="398dp"
+            android:layout_height="64dp"
+            android:background="#00009688"
+            android:gravity="center_horizontal|fill|center_vertical"
+            android:text="@string/txtPurchaseShipping"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtEHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtEHeight" />
+
+        <EditText
+            android:id="@+id/estHeight"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/txtEWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtEWidth" />
+
+        <EditText
+            android:id="@+id/estWidth"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/txtDepth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtDepth" />
+
+        <EditText
+            android:id="@+id/estDepth"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/txtEWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtEWeight" />
+
+        <EditText
+            android:id="@+id/estWeight"
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="textEnd" />
+
+        <Button
+            android:id="@+id/btnCalculateEstimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnECalculate" />
+
+        <RadioGroup
+            android:id="@+id/rbgShippingCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/rbStandard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbStandard" />
+
+            <RadioButton
+                android:id="@+id/rbPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbPriority" />
+
+            <RadioButton
+                android:id="@+id/rbOvernight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbOvernight" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtOriginAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtOriginAddress" />
+
+        <EditText
+            android:id="@+id/inputOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/txtDestinationAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtDestinationAddress" />
+
+        <EditText
+            android:id="@+id/inputDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnPurchaseShipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtPurchaseShipping" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TrackChip</string>
+    <string name="txtEst">Estimate Shipping Cost</string>
+    <string name="txtEWidth">Package Width:</string>
+    <string name="txtEHeight">Package Height:</string>
+    <string name="txtEWeight">Package Weight:</string>
+    <string name="btnECalculate">Calculate Shipping Costs</string>
+    <string name="txtETitle">Estimate Shipping Costs</string>
+    <string name="txtDepth">Package Depth:</string>
+    <string name="btnop1">Search Package</string>
+    <string name="btnop2">View Package Location</string>
+    <string name="btnop4">Purchase Shipping</string>
+    <string name="btnop5">Shipping Locations</string>
+
+    <string name="imageDescription">shipment image</string>
+    <string name="trackHint">Enter the tracking ID</string>
+    <string name="trackItem">Track Item</string>
+
+    <string name="rbStandard">Standard</string>
+    <string name="rbPriority">Priority Post</string>
+    <string name="rbOvernight">Overnight</string>
+    <string name="txtPurchaseShipping">Purchase Shipping</string>
+    <string name="btnHome">Home Page</string>
+
+    <string name="txtOriginAddress">Origin Shipping Address</string>
+    <string name="txtDestinationAddress">Destination Address</string>
+
+    <string name="order_location">Order Location</string>
+    <string name="txtEstimate">ESTIMATED DATE</string>
+    <string name="txtTrackNum">TRACKING NUMBER</string>
+    <string name="estimateDate">Dec 24, 2020</string>
+    <string name="trackNum">#300317393</string>
+    <string name="txtShipped">Order Shipped</string>
+    <string name="shippedDate">3:20 PM Dec 22</string>
+    <string name="txtShippedPlace">Toronto, CA</string>
+    <string name="txtOrderOut">Out for Delivery</string>
+    <string name="txtOutPlace">Richmond, CA</string>
+    <string name="OutDate">7:05 AM Dec 24</string>
+    <string name="txtDelivered">Order Delivered</string>
+    <string name="txtDeliveredDate">Your order will be delivered today</string>
+
+    <string name="txtprice">Shipping Price Order</string>
+    <string name="txtpackage">Package Information</string>
+    <string-array name="packtypes">
+        <item>"Your Packaging"</item>
+        <item>"Letter"</item>
+        <item>"Express Box"</item>
+        <item>"tube"</item>
+        <item>"Pak"</item>
+    </string-array>
+    <string-array name="shiptypes">
+        <item>"Express Early Shipping"</item>
+        <item>"Express Shipping"</item>
+        <item>"Express Saver"</item>
+        <item>"Express Expedited"</item>
+        <item>"Express Standard"</item>
+    </string-array>
+    <string name="txtWeight">Weight (lbs)</string>
+    <string name="txtLength">Length (in)</string>
+    <string name="txtWidth">Width (in)</string>
+    <string name="txtHeight">Height (in)</string>
+    <string name="btnOrder">Purchase Shipping</string>
+    <string name="hintweight">3</string>
+    <string name="hintlenght">12</string>
+    <string name="hintwidht">18</string>
+    <string name="hintheight">18</string>
+    <string name="rad1">Residential</string>
+    <string name="rad2">Bussiness</string>
+    <string name="desttype">Destination type</string>
+
+    <string name="txtOvernight">Overnight:</string>
+    <string name="txtStandard">Standard:</string>
+    <string name="txtPriority">Priority Post</string>
+    <string name="b1">View Package information</string>
+    <string name="b2">View Tracking Information</string>
+
+</resources>
